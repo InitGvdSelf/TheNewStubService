@@ -58,6 +58,7 @@ This application includes monitoring capabilities using Micrometer and Spring Bo
 
 **Access:**
 ```
+http://localhost:8080/actuator/metrics
 http://localhost:8080/actuator/prometheus
 ```
 
