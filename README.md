@@ -52,3 +52,14 @@ Start the Spring Boot application:
 mvn spring-boot:run
 ```
 
+#### Monitoring and Metrics with Micrometer
+
+This application includes monitoring capabilities using Micrometer and Spring Boot Actuator. It exposes both standard JVM and system metrics as well as custom application-specific metrics.
+
+**Access:**
+```
+http://localhost:8080/actuator/prometheus
+```
+
+
+
