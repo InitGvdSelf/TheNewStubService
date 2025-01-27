@@ -85,6 +85,9 @@ public class MainController {
     public int getRateLimit() {
         return rateLimit;
     }
+    public void setRateLimit(int rateLimit) {
+        this.rateLimit = rateLimit;
+    }
 
     public int getErrorRate() {
         return errorRate;
